@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerCharacter
+  - Terrain
+  - GolfBalls
+  - Bullet
+  - Melee
+  - GolfHitBox
+  - PlayerCamera
+  - MeleeSwipe
+  - LargeNPC
+  - Shrapnel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player_BVS
+  - GolfBall_BVS
+  - GOLFABLE
+  - STRIKER
+  - Controller
+  - Ragdoll
+  - Walls
+  - LargeNPC
+  - PointLights
+  - Ammo
+  - GolfSphereCaster
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

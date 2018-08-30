@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: df0b33fd832149f44bf8671fa81d99a1
+timeCreated: 1533772104
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: LIZARD_belt_keys
+    100004: LIZARD_bottlecap_shoulderarmor
+    100006: LIZARD_glove_shirt
+    100008: LIZARD_lizard_body
+    100010: watch_armor_LIZARD
+    400000: //RootNode
+    400002: LIZARD_belt_keys
+    400004: LIZARD_bottlecap_shoulderarmor
+    400006: LIZARD_glove_shirt
+    400008: LIZARD_lizard_body
+    400010: watch_armor_LIZARD
+    2100000: LIZARD_belt_keysMat
+    2100002: LIZARD_bottlecap_shoulderarmorMat
+    2100004: LIZARD_glove_shirtMat
+    2100006: LIZARD_lizard_bodyMat
+    2100008: watch_armor_LIZARDMat
+    2300000: LIZARD_belt_keys
+    2300002: LIZARD_bottlecap_shoulderarmor
+    2300004: LIZARD_glove_shirt
+    2300006: LIZARD_lizard_body
+    2300008: watch_armor_LIZARD
+    3300000: LIZARD_belt_keys
+    3300002: LIZARD_bottlecap_shoulderarmor
+    3300004: LIZARD_glove_shirt
+    3300006: LIZARD_lizard_body
+    3300008: watch_armor_LIZARD
+    4300000: LIZARD_belt_keys
+    4300002: LIZARD_bottlecap_shoulderarmor
+    4300004: LIZARD_glove_shirt
+    4300006: LIZARD_lizard_body
+    4300008: watch_armor_LIZARD
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: Lizard(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LIZARD_belt_keys
+      parentName: Lizard(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LIZARD_bottlecap_shoulderarmor
+      parentName: Lizard(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LIZARD_glove_shirt
+      parentName: Lizard(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LIZARD_lizard_body
+      parentName: Lizard(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: watch_armor_LIZARD
+      parentName: Lizard(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
