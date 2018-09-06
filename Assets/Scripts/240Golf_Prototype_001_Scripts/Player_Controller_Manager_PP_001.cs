@@ -137,7 +137,7 @@ public class Player_Controller_Manager_PP_001 : NetworkBehaviour
             {
                 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
                 moveDirection = transform.TransformDirection(moveDirection);
-                moveDirection *= speed * 10.0f;
+                moveDirection *= speed * 2.5f;
                 /*if (Input.GetButton("Jump")) moveDirection.y = jumpSpeed;*/
 
             }

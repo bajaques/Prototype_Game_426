@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 471}
+  m_MinSize: {x: 950, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1826
     height: 1016
-  m_MinSize: {x: 950, y: 471}
+  m_MinSize: {x: 950, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -105,10 +105,10 @@ MonoBehaviour:
     y: 30
     width: 1826
     height: 966
-  m_MinSize: {x: 917, y: 421}
-  m_MaxSize: {x: 22012, y: 10021}
+  m_MinSize: {x: 909, y: 442}
+  m_MaxSize: {x: 22004, y: 10000}
   vertical: 1
-  controlID: 5273
+  controlID: 6465
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -131,10 +131,10 @@ MonoBehaviour:
     y: 0
     width: 1826
     height: 966
-  m_MinSize: {x: 917, y: 421}
-  m_MaxSize: {x: 22012, y: 10021}
+  m_MinSize: {x: 909, y: 442}
+  m_MaxSize: {x: 22004, y: 10000}
   vertical: 0
-  controlID: 5274
+  controlID: 6466
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -155,10 +155,10 @@ MonoBehaviour:
     y: 0
     width: 704
     height: 966
-  m_MinSize: {x: 202, y: 421}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 5275
+  controlID: 6444
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -393,14 +393,14 @@ MonoBehaviour:
     height: 569
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 300.4373815141302
+  lastFramingTime: 3321.241934621673
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 589.7582, y: -551.8592, z: 601.54395}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 589.7582, y: -551.8592, z: 601.54395}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -424,13 +424,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.074919425, y: 0.7814223, z: -0.09566735, w: -0.61210436}
+    m_Target: {x: -0.24238934, y: 0.74493587, z: -0.5116395, w: -0.35298908}
     speed: 2
-    m_Value: {x: -0.074917264, y: 0.7813998, z: -0.09566459, w: -0.6120867}
+    m_Value: {x: -0.24238229, y: 0.7449142, z: -0.5116246, w: -0.3529788}
   m_Size:
-    m_Target: 1308.0631
+    m_Target: 2415.0674
     speed: 2
-    m_Value: 1308.0631
+    m_Value: 2415.0674
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -575,9 +575,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 62f6ffff
-    m_LastClickedID: -2462
-    m_ExpandedIDs: aaf9ffff9efbffff000000001c32000064320000b2320000cc3300001a340000a6340000
+    m_SelectedIDs: f0320000
+    m_LastClickedID: 13040
+    m_ExpandedIDs: 9efbffff000000001c32000064320000cc330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -639,19 +639,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/Scripts/240Golf_Prototype_001_Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scripts/240Golf_Prototype_001_Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\BocaBear\Desktop\240Golf_001
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7e300000
-    m_LastClickedID: 12414
-    m_ExpandedIDs: 00000000f22800002c290000fa290000102a0000802a00008c2b0000b62c0000562e00007e2f00008c2f0000be2f0000ce2f0000e42f00004e300000ffffff7f
+    m_SelectedIDs: 4c300000
+    m_LastClickedID: 12364
+    m_ExpandedIDs: 00000000f02800002a290000f82900000e2a00007e2a00008a2b0000b42c0000542e00007c2f00008a2f0000bc2f0000cc2f0000e22f00004c300000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -679,7 +679,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f22800002c290000fa290000102a0000802a00008c2b0000b62c0000562e00007e2f00008c2f0000be2f0000ce2f0000e42f00004e300000ffffff7f
+    m_ExpandedIDs: 00000000f02800002a290000f82900000e2a00007e2a00008a2b0000b42c0000542e00007c2f00008a2f0000bc2f0000cc2f0000e22f00004c300000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
