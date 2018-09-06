@@ -63,6 +63,11 @@ public class Player_Controller_Manager_PP_001 : NetworkBehaviour
     float y;
     float z;
 
+    private Vector3 moveDirection = Vector3.zero;
+    public float speed = 10.0F;
+    public float jumpSpeed = 8.0F;
+    public float gravity = 200.0F;
+
     private float speedUpRotation = 100.0f;
     public GameObject currentTargetGolfable = null;
 
@@ -90,9 +95,10 @@ public class Player_Controller_Manager_PP_001 : NetworkBehaviour
     }
 
     public void RunWalkRun(bool run)
+
     {
         //WALKING
-        x = Input.GetAxis("Horizontal") * Time.deltaTime * 10.0f;
+        /*x = Input.GetAxis("Horizontal") * Time.deltaTime * 10.0f;
         y = Input.GetAxis("Vertical") * Time.deltaTime * 10.0f;
 
         if (run == false)
@@ -104,7 +110,41 @@ public class Player_Controller_Manager_PP_001 : NetworkBehaviour
         {
             transform.Translate(0, 0, y * 4);
             transform.Translate(x * 4, 0, 0);
+        }*/
+
+        if (run == false)
+        {
+            x = Input.GetAxis("Horizontal") * Time.deltaTime * 10.0f;
+            y = Input.GetAxis("Vertical") * Time.deltaTime * 10.0f;
+            CharacterController controller = GetComponent<CharacterController>();
+            if (controller.isGrounded)
+            {
+                moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
+                moveDirection = transform.TransformDirection(moveDirection);
+                moveDirection *= speed;
+                /*if (Input.GetButton("Jump")) moveDirection.y = jumpSpeed;*/
+
+            }
+            moveDirection.y -= gravity * Time.deltaTime;
+            controller.Move(moveDirection * Time.deltaTime);
         }
+        else
+        {
+            x = Input.GetAxis("Horizontal") * Time.deltaTime * 40.0f;
+            y = Input.GetAxis("Vertical") * Time.deltaTime * 40.0f;
+            CharacterController controller = GetComponent<CharacterController>();
+            if (controller.isGrounded)
+            {
+                moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
+                moveDirection = transform.TransformDirection(moveDirection);
+                moveDirection *= speed * 10.0f;
+                /*if (Input.GetButton("Jump")) moveDirection.y = jumpSpeed;*/
+
+            }
+            moveDirection.y -= gravity * Time.deltaTime;
+            controller.Move(moveDirection * Time.deltaTime);
+        }
+        
     }
 
     public void RunVanillaState(bool run)

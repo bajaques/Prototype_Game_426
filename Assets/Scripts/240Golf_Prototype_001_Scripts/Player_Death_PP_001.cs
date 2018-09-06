@@ -61,7 +61,7 @@ public class Player_Death_PP_001 : NetworkBehaviour {
     {
         for (int i = 0; i < children; ++i)
         {
-            Instantiate(DeathDebrisPieces[i], transform.position, DeathDebrisPieces[i].transform.rotation);
+            //Instantiate(DeathDebrisPieces[i], transform.position, DeathDebrisPieces[i].transform.rotation);
         }
     }
 

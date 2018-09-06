@@ -128,7 +128,7 @@ public class RealGolfSphereCaster : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.layer == LayerMask.NameToLayer("GOLFABLE"))
+        if ((col.gameObject.layer == LayerMask.NameToLayer("GOLFABLE")) || (col.gameObject.layer == LayerMask.NameToLayer("GolfBall_BVS")))
         {
             Vector3 target = col.gameObject.transform.position - transform.position;
             float angle = Vector3.Angle(-transform.right, target);
@@ -143,7 +143,7 @@ public class RealGolfSphereCaster : MonoBehaviour
 
     void OnTriggerExit(Collider col)
     {
-        if (col.gameObject.layer == LayerMask.NameToLayer("GOLFABLE"))
+        if ((col.gameObject.layer == LayerMask.NameToLayer("GOLFABLE")) || (col.gameObject.layer == LayerMask.NameToLayer("GolfBall_BVS")))
         {
             col.gameObject.GetComponent<IGolfable>().ChosenWithinGolfBubble(false);
             col.gameObject.GetComponent<IGolfable>().WithinGolfBubble(false);

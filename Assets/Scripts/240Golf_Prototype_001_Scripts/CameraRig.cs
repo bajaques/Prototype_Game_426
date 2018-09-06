@@ -118,8 +118,6 @@ public class CameraRig : MonoBehaviour {
 		eulerAngleAxis.x = newX;
 		eulerAngleAxis.y = newY;
 
-		//print("X is " + newX + "; " + "Y is " + newY);
-
 		newY = Mathf.Repeat(newY, 360);
 		newX = Mathf.Clamp(newX, cameraSettings.minAngle, cameraSettings.maxAngle);
 

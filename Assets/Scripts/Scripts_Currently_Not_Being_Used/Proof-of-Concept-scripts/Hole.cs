@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Hole : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Hole : MonoBehaviour
     {
         if (col.gameObject.tag == "GolfBalls")
         {
+            SceneManager.LoadScene("GameOver");
             col.gameObject.SetActive(false);
 
             //TEMP HARD CODED CODE FOR PLAYTEST

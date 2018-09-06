@@ -159,8 +159,9 @@ public class WeaponHandler : MonoBehaviour
         settingWeapon = false;
     }
 
-    void onAnimatorIK()
+    void OnAnimatorIK()
     {
+
         if (!animator)
         {
             return;
@@ -169,6 +170,7 @@ public class WeaponHandler : MonoBehaviour
 
             if (currentWeapon)
             {
+                
                 if (currentWeapon.userSettings.leftHandIKTarget && weaponType == 1 && !settingWeapon)
                 {
                     animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, 1);

@@ -42,9 +42,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1803750733809234}
-  m_LocalRotation: {x: -0, y: 0.65770715, z: -0, w: 0.7532737}
-  m_LocalPosition: {x: -152.5025, y: 36.9, z: -30.799088}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.99771416, z: -0, w: 0.06757566}
+  m_LocalPosition: {x: 446.5, y: -0.3, z: 0.19998169}
+  m_LocalScale: {x: 1.6092727, y: 1.60927, z: 1.6092726}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,7 +97,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1803750733809234}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 50
   m_Drag: 0
   m_AngularDrag: 15
   m_UseGravity: 1
@@ -122,6 +122,8 @@ MonoBehaviour:
   materialEffect: {fileID: 2100000, guid: c93cf58cb9e584643b11ba1aead9d3b3, type: 2}
   lastHitBy: 0
   isGolfBall: 1
+  Shrapnel: {fileID: 0}
+  Ammo: {fileID: 0}
 --- !u!114 &114779699563729226
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -258,7 +260,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1385931672
+  randomSeed: -1108918094
   InitialModule:
     serializedVersion: 3
     enabled: 1

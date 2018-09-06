@@ -90,7 +90,7 @@ public class Enemy : MonoBehaviour {
     {
         for (int i = 0; i < children; ++i)
         {
-            Instantiate(DeathDebrisPieces[i], transform.position, DeathDebrisPieces[i].transform.rotation);
+            //Instantiate(DeathDebrisPieces[i], transform.position, DeathDebrisPieces[i].transform.rotation);
         }
     }
 
@@ -119,10 +119,10 @@ public class Enemy : MonoBehaviour {
         /*col.gameObject.SetActive(true);
         col.gameObject.GetComponent<Rigidbody>().velocity = transform.forward * 5.0f;// this could become predictable???
         col.gameObject.transform.position = ballRespawnPoint.transform.position;*/
-        Vector3 carryBallPosition = this.gameObject.transform.position;
+        /*Vector3 carryBallPosition = this.gameObject.transform.position;
         carryBallPosition.y = carryBallPosition.y + 5.0f;
         col.gameObject.transform.position = carryBallPosition;
-        col.gameObject.transform.parent = this.gameObject.transform;
+        col.gameObject.transform.parent = this.gameObject.transform;*/
 
     }
 

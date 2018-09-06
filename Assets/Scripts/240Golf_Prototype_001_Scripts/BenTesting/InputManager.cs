@@ -120,9 +120,6 @@ public class InputManager : MonoBehaviour
             aiming = false;
         }
 
-        print("Input: " + Input.GetAxis("Aiming"));
-        print("Aiming: " + aiming);
-
         if (weaponHandler.currentWeapon)
         {
             weaponHandler.Aim(aiming);
